@@ -6,15 +6,15 @@
 
 ## Contact Details
 
-Location: Tczew
+Location: Gdansk
 
-Phone: +48 729402417
+Phone: +48 729 402 417
 
 E-mail: m.ushakova22@gmail.com
 
-[Github] (https://github.com/Mariia22)
+[Github](https://github.com/Mariia22)
 
-(LinkedIn) [https://www.linkedin.com/in/mariia-ushakova-7b73b33a/]
+[LinkedIn](https://www.linkedin.com/in/mariia-ushakova-7b73b33a/)
 ***
 
 ## About me
@@ -41,9 +41,8 @@ I have work permit in Poland (karta pobytu z adnotacją "dostęp do rynku pracy"
 
 ## Code example
 
-**Codewars**
-
-**Task** Create a function that takes a Roman numeral as its argument and returns its value as a numeric decimal integer. You don't need to validate the form of the Roman numeral.
+**Codewars.**
+*Create a function that takes a Roman numeral as its argument and returns its value as a numeric decimal integer. You don't need to validate the form of the Roman numeral.*
 
 ```function solution(roman){
  function equalsRomanToArabic(numer){
@@ -81,10 +80,12 @@ I have work permit in Poland (karta pobytu z adnotacją "dostęp do rynku pracy"
 
 ## Hobby Projects
 
-1. TODO List  (React/Redux/Typescript/Hooks) https://github.com/Mariia22/todo-react
-2. Window Company (Vanilla JS) https://github.com/Mariia22/SiteForWindowCompanyJS
-3. Cat Energy (HTML5/CSS3) https://github.com/Mariia22/953431-cat-energy-18
+1. TODO List  (React/Redux/Typescript/Hooks) <https://github.com/Mariia22/todo-react>
+2. Window Company (Vanilla JS) <https://github.com/Mariia22/SiteForWindowCompanyJS>
+3. Cat Energy (HTML5/CSS3) <https://github.com/Mariia22/953431-cat-energy-18>
+
 ***
+
 ## Education
 
 * Taganrog Institute of Technology of Southern Federal University Applied informatics in psychology | 2007 - 2012
@@ -104,4 +105,4 @@ I have work permit in Poland (karta pobytu z adnotacją "dostęp do rynku pracy"
 
 * English - Intermediate
 * Russian - Native
-* Polish - Pre-Intermidiate
+* Polish - Pre-Intermediate
