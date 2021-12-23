@@ -5,14 +5,127 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="normalize.css">
+  <title>CV Ushakova Mariia</title>
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <img alt="My photo"
-    src='https://avatars.githubusercontent.com/u/45990598?s=400&u=57ab2a7d82e81c650974c1bec2bb46e3e8304bb3&v=4' />
+  <header>
+    <div class="container">
+      <img alt="My photo" src="assets/foto.jpeg" />
+      <h1>Mariia Ushakova</h1>
+      <h2>Frontend Developer<h2>
+          <nav>
+            <ul>
+              <li><a href="#about">About me</a></li>
+              <li><Contacts href="#contacts">Contacts</a></li>
+              <li><Education href="#education">Education</a></li>
+              <li><Projects href="#projects">Projects</a></li>
+              <li><Skills href="#skills">Skills</a></li>
+              <li><Code href="#code">Code</a></li>
+              <li><Languages href="#languages">Languages</a></li>
+              <li><Hobby href="#hobby">Hobby</a></li>
+            </ul>
+          </nav>
+    </div>
+  </header>
+  <main>
+    <div class="main__container container">
+      <section>
+        <h3 id="contacts">Contact Details</h3>
+        <ul>
+          <li>Location: Gdansk</li>
+          <li>Phone: +48 729 402 417
+          <li>E-mail: m.ushakova22@gmail.com
+          <li><a href="">Github</a></li>
+          <li><a href="">LinkedIn</a></li>
+        </ul>
+      </section>
+      <section id="about">
+        <h3>About me</h3>
+        <p>I have experience in production and sales automation as a 1C Programmer and Lead Support Specialist 1C.
+          After relocation to Poland, I’ve decided to change the technology stack. My interests are in
+          Front-End Engineering because I love to create beautiful performant products. Now I’m looking for a job as a
+          Junior Frontend Developer or internship.
+          I have work permit in Poland (karta pobytu z adnotacją “dostęp do rynku pracy”)
+        </p>
+      </section>
+      <section id="education">
+        <h3>Education</h3>
+        <ul>
+          <li>Taganrog Institute of Technology of Southern Federal University Applied informatics in psychology
+            <span>2007 - 2012</span>
+          </li>
+          <li>Taganrog College of Aviation Ind. Accounting <span>2014 - 2015</span></li>
+          <li>CODE:ME HTML5\CSS3<span>May 2019</span></li>
+          <li>CODE:ME JS6/React<span>July 2019</span></li>
+          <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+        </ul>
+      </section>
+      <section id="projects">
+        <h3>Projects</h3>
+        <ul>
+          <li><a href="https://github.com/Mariia22/todo-react">TODO List (React/Redux/Typescript/Hooks)</a></li>
+          <li><a href="https://github.com/Mariia22/SiteForWindowCompanyJS">Window Company (Vanilla JS)</a></li>
+          <li><a href="https://github.com/Mariia22/953431-cat-energy-18">Cat Energy (HTML5/CSS3)</a></li>
+        </ul>
+      </section>
+      <section id="skills">
+        <h3>Skills</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JS</li>
+          <li>React</li>
+          <li>Redux</li>
+          <li>SASS</li>
+          <li>Gulp</li>
+          <li>Git</li>
+          <li>Figma</li>
+        </ul>
+      </section>
+      <section id="code">
+        <h3>Code example</h3>
+        <pre>
+        <code>
+          const encrypt = (string) => {
+            let result = '';
+            for (let i = 0; i < string.length; i += 2) {
+              const nextSymbol = string[i + 1] || '';
+              result = `${result}${nextSymbol}${string[i]}`;
+            }
+            return result;
+          };
+        </code>
+      </pre>
+      </section>
+      <section id="languages">
+        <h3>Languages</h3>
+        <ul>
+          <li>English - Intermediate</li>
+          <li>Russian - Native</li>
+          <li>Polish - Pre-Intermediate</li>
+        </ul>
+      </section>
+      <section id="hobby">
+        <h3>Hobby</h3>
+        <ul>
+          <li>Cycling</li>
+          <li>Languages</li>
+          <li>Travelling</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <span>© 2022</span>
+      <a href="https://github.com/Mariia22/todo-react"></a>
+      <a href="https://rs.school/js/"></a>
+    </div>
+  </footer>
 </body>
 
 </html>
