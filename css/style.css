@@ -76,7 +76,7 @@ body {
   width: 340px;
   height: 340px;
   border-radius: 50%;
-  border: 4px solid var(--titleColor);
+  border: 2px solid var(--titleColor);
 }
 
 .header__content{
@@ -129,8 +129,37 @@ body {
   color: var(--titleColor);
 }
 
-.code{
+.code {
   padding: 0;
   margin: 0;
   font-size: 12px;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px 30px;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__git {
+  width: 121px;
+  height: 45px;
+  background-image: url(../assets/github.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+.footer__rss {
+  width: 121px;
+  height: 45px;
+  background-image: url(../assets/rss.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
