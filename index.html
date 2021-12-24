@@ -13,44 +13,48 @@
 
 <body>
   <header>
-    <div class="container">
-      <img alt="My photo" src="assets/foto.jpeg" />
-      <h1>Mariia Ushakova</h1>
-      <h3>Frontend Developer</h3>
-      <nav>
-        <ul>
-          <li>
-            <a href="#about">About me</a>
+    <div class="container header__container">
+      <nav class="header__menu">
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="header__link" href="#about">About me</a>
           </li>
-          <li>
-            <a href="#contacts">Contacts</a>
+          <li class="header__item">
+            <a class="header__link" href="#contacts">Contacts</a>
           </li>
-          <li>
-            <a href="#education">Education</a>
+          <li class="header__item">
+            <a class="header__link" href="#education">Education</a>
           </li>
-          <li>
-            <a href="#projects">Projects</a>
+          <li class="header__item">
+            <a class="header__link" href="#projects">Projects</a>
           </li>
-          <li>
-            <a href="#skills">Skills</a>
+          <li class="header__item">
+            <a class="header__link" href="#skills">Skills</a>
           </li>
-          <li>
-            <a href="#codeexample">Code</a>
+          <li class="header__item">
+            <a class="header__link" href="#codeexample">Code</a>
           </li>
-          <li>
-            <a href="#languages">Languages</a>
+          <li class="header__item">
+            <a class="header__link" href="#languages">Languages</a>
           </li>
-          <li>
-            <a href="#hobby">Hobby</a>
+          <li class="header__item">
+            <a class="header__link" href="#hobby">Hobby</a>
           </li>
         </ul>
       </nav>
+      <div class="header__content">
+        <img class="header__image" alt="My photo" src="assets/foto.jpeg" />
+        <div class="header__information">
+          <h1 class="header__title">Mariia Ushakova</h1>
+          <h3 class="header__head">Front-end Developer</h3>
+        </div>
+      </div>
     </div>
   </header>
   <main>
     <div class="main__container container">
       <section class="section" id="contacts">
-        <h2>Contact Details</h2>
+        <h2 class="section__title">Contact Details</h2>
         <ul>
           <li>Location: Gdansk</li>
           <li>Phone: +48 729 402 417
@@ -60,7 +64,7 @@
         </ul>
       </section>
       <section class="section" id="about">
-        <h2>About me</h2>
+        <h2 class="section__title">About Me</h2>
         <p>I have experience in production and sales automation as a 1C Programmer and Lead Support Specialist 1C.
           After relocation to Poland, I’ve decided to change the technology stack. My interests are in
           Front-End Engineering because I love to create beautiful performant products. Now I’m looking for a job as a
@@ -69,7 +73,7 @@
         </p>
       </section>
       <section class="section" id="education">
-        <h2>Education</h2>
+        <h2 class="section__title">Education</h2>
         <ul>
           <li>Taganrog Institute of Technology of Southern Federal University Applied informatics in psychology
             <span>2007 - 2012</span>
@@ -81,7 +85,7 @@
         </ul>
       </section>
       <section class="section" id="projects">
-        <h2>Projects</h2>
+        <h2 class="section__title">Projects</h2>
         <ul>
           <li><a href="https://github.com/Mariia22/todo-react">TODO List (React/Redux/Typescript/Hooks)</a></li>
           <li><a href="https://github.com/Mariia22/SiteForWindowCompanyJS">Window Company (Vanilla JS)</a></li>
@@ -89,7 +93,7 @@
         </ul>
       </section>
       <section class="section" id="skills">
-        <h2>Skills</h2>
+        <h2 class="section__title">Skills</h2>
         <ul>
           <li>HTML</li>
           <li>CSS</li>
@@ -103,22 +107,22 @@
         </ul>
       </section>
       <section class="section" id="codeexample">
-        <h2>Code example</h2>
-        <pre>
+        <h2 class="section__title">Code Example</h2>
+        <pre class="code">
         <code>
-          const encrypt = (string) => {
-            let result = '';
-            for (let i = 0; i < string.length; i += 2) {
-              const nextSymbol = string[i + 1] || '';
-              result = `${result}${nextSymbol}${string[i]}`;
-            }
-            return result;
-          };
+const encrypt = (string) => {
+  let result = '';
+  for (let i = 0; i < string.length; i += 2) {
+    const nextSymbol = string[i + 1] || '';
+    result = `${result}${nextSymbol}${string[i]}`;
+  }
+  return result;
+};
         </code>
               </pre>
       </section>
       <section class="section" id="languages">
-        <h2>Languages</h2>
+        <h2 class="section__title">Languages</h2>
         <ul>
           <li>English - Intermediate</li>
           <li>Russian - Native</li>
@@ -126,7 +130,7 @@
         </ul>
       </section>
       <section class="section" id="hobby">
-        <h2>Hobby</h2>
+        <h2 class="section__title">Hobby</h2>
         <ul>
           <li>Cycling</li>
           <li>Languages</li>
