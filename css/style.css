@@ -129,6 +129,150 @@ body {
   color: var(--titleColor);
 }
 
+.section__text {
+  text-align: justify;
+ }
+
+.section__list {
+  list-style: none;
+}
+.section__item {
+  position: relative;
+  margin: 0;
+  padding-left: 30px;
+}
+
+.section__item:before {
+ position: absolute;
+ content: '';
+ top: 10px;
+ left: 5px;
+ width: 10px;
+ height: 10px;
+ background-color: var(--titleColor);
+ border-radius: 50%;
+}
+
+.section__item a {
+  text-decoration: none;
+  color: black;
+}
+
+.section__item a:hover {
+  color: var(--titleColor);
+  transition: color 0.5s;
+}
+
+.contacts__item a{
+  text-decoration: none;
+  color: black;
+}
+
+.contacts__item {
+  position: relative;
+  margin: 0;
+  padding-left: 35px;
+  padding-bottom: 15px;
+}
+
+.contacts__item a:hover {
+  color: var(--titleColor);
+  transition: color 0.5s;
+}
+
+.contacts__item:before {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 0px;
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contacts__item::before:hover {
+ color: var(--titleColor);
+}
+
+.contacts__item:nth-child(1):before{
+  background-image: url(./../assets/images/location.svg);
+}
+
+.contacts__item:nth-child(2):before{
+  background-image: url(./../assets/images/phone.svg);
+}
+
+.contacts__item:nth-child(3):before{
+  background-image: url(./../assets/images/email.svg);
+}
+
+.contacts__item:nth-child(4):before{
+  background-image: url(./../assets/images/discord.svg);
+}
+
+.contacts__item:nth-child(5):before{
+  background-image: url(./../assets/images/githubIcon.svg);
+}
+
+.contacts__item:nth-child(6):before{
+  background-image: url(./../assets/images/linkedin.svg);
+}
+
+.skill__item {
+  position: relative;
+  margin: 0;
+  padding-left: 35px;
+  padding-bottom: 15px;
+}
+
+.skill__item:before {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 0px;
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.skill__item:nth-child(1):before{
+  background-image: url(./../assets/images/html.svg);
+}
+
+.skill__item:nth-child(2):before{
+  background-image: url(./../assets/images/css.svg);
+}
+
+.skill__item:nth-child(3):before{
+  background-image: url(./../assets/images/js.svg);
+}
+
+.skill__item:nth-child(4):before{
+  background-image: url(./../assets/images/react.svg);
+}
+
+.skill__item:nth-child(5):before{
+  background-image: url(./../assets/images/redux.svg);
+}
+
+.skill__item:nth-child(6):before{
+  background-image: url(./../assets/images/sass.svg);
+}
+
+.skill__item:nth-child(7):before{
+  background-image: url(./../assets/images/gulp.svg);
+}
+
+.skill__item:nth-child(8):before{
+  background-image: url(./../assets/images/githubIcon.svg);
+}
+
+.skill__item:nth-child(9):before{
+  background-image: url(./../assets/images/figma.svg);
+}
+
 .code {
   padding: 0;
   margin: 0;
@@ -139,7 +283,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 40px 30px;
+  padding: 20px 40px;
+  background-color: var(--titleColor);
 }
 
 .footer__content {
@@ -148,18 +293,18 @@ body {
 }
 
 .footer__git {
-  width: 121px;
-  height: 45px;
-  background-image: url(../assets/github.svg);
+  width: 100px;
+  height: 40px;
+  background-image: url(../assets/images/github.svg);
   background-size: contain;
   background-repeat: no-repeat;
 
 }
 
 .footer__rss {
-  width: 121px;
-  height: 45px;
-  background-image: url(../assets/rss.svg);
+  width: 100px;
+  height: 40px;
+  background-image: url(../assets/images/rss.svg);
   background-size: contain;
   background-repeat: no-repeat;
 }
