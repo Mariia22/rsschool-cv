@@ -5,13 +5,162 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+  <title>CV Ushakova Mariia</title>
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <img alt="My photo"
-    src='https://avatars.githubusercontent.com/u/45990598?s=400&u=57ab2a7d82e81c650974c1bec2bb46e3e8304bb3&v=4' />
+  <header>
+    <div class="container header__container">
+      <nav class="header__menu">
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="header__link" href="#about">About me</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#contacts">Contacts</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#education">Education</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#projects">Projects</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#skills">Skills</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#codeexample">Code</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#languages">Languages</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#hobby">Hobby</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__menu__mobile">
+        <div class="header__toggle">
+          <div class="header__line1"></div>
+          <div class="header__line2"></div>
+          <div class="header__line3"></div>
+        </div>
+      </div>
+      <div class="header__content">
+        <img class="header__image" alt="My avatar" src="assets/images/foto.jpeg" />
+        <div class="header__information">
+          <h1 class="header__title">Mariia Ushakova</h1>
+          <h3 class="header__head">Front-end Developer</h3>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="main__container container">
+      <section class="section" id="contacts">
+        <h2 class="section__title">Contact Details</h2>
+        <ul class="section__list contacts">
+          <li class="contacts__item">Location: Gdansk</li>
+          <li class="contacts__item">Phone: +48 729 402 417</li>
+          <li class="contacts__item">E-mail: <a href="m.ushakova22@gmail.com" title="email">m.ushakova22@gmail.com</a>
+          </li>
+          <li class="contacts__item">Discord: Mariia#7904</li>
+          <li class="contacts__item"><a href="https://github.com/Mariia22/todo-react">Github</a></li>
+          <li class="contacts__item"><a href="https://www.linkedin.com/in/mariia-ushakova-7b73b33a/">LinkedIn</a></li>
+        </ul>
+      </section>
+      <section class="section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <p class="section__text">I have experience in production and sales automation as a 1C Programmer and Lead
+          Support Specialist 1C.
+          After relocation to Poland, I’ve decided to change the technology stack. My interests are in
+          Front-End Engineering because I love to create beautiful performant products. Now I’m looking for a job as a
+          Junior Frontend Developer or internship.
+          I have work permit in Poland (karta pobytu z adnotacją “dostęp do rynku pracy”)
+        </p>
+      </section>
+      <section class="section" id="education">
+        <h2 class="section__title">Education</h2>
+        <ul class="section__list">
+          <li class="section__item">Taganrog Institute of Technology of Southern Federal University Applied informatics
+            in psychology (2007 - 2012)</li>
+          <li class="section__item">Taganrog College of Aviation Ind. Accounting (2014 - 2015)</li>
+          <li class="section__item">CODE:ME HTML5\CSS3 (May 2019)</li>
+          <li class="section__item">CODE:ME JS6/React (July 2019)</li>
+          <li class="section__item">RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+        </ul>
+      </section>
+      <section class="section" id="projects">
+        <h2 class="section__title">Projects</h2>
+        <ul class="section__list">
+          <li class="section__item"><a href="https://github.com/Mariia22/todo-react">TODO List
+              (React/Redux/Typescript/Hooks)</a></li>
+          <li class="section__item"><a href="https://github.com/Mariia22/SiteForWindowCompanyJS">Window Company (Vanilla
+              JS)</a></li>
+          <li class="section__item"><a href="https://github.com/Mariia22/953431-cat-energy-18">Cat Energy
+              (HTML5/CSS3)</a></li>
+        </ul>
+      </section>
+      <section class="section skill" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="section__list">
+          <li class="skill__item">HTML</li>
+          <li class="skill__item">CSS</li>
+          <li class="skill__item">JS</li>
+          <li class="skill__item">React</li>
+          <li class="skill__item">Redux</li>
+          <li class="skill__item">SASS</li>
+          <li class="skill__item">Gulp</li>
+          <li class="skill__item">Git</li>
+          <li class="skill__item">Figma</li>
+        </ul>
+      </section>
+      <section class="section" id="codeexample">
+        <h2 class="section__title">Code Example</h2>
+        <pre class="code">
+        <code>
+const encrypt = (string) => {
+  let result = '';
+  for (let i = 0; i&lt;string.length; i += 2) {
+    const nextSymbol = string[i + 1] || '';
+    result = `${result}${nextSymbol}${string[i]}`;
+  }
+  return result;
+};
+        </code>
+        </pre>
+      </section>
+      <section class="section" id="languages">
+        <h2 class="section__title">Languages</h2>
+        <ul class="section__list">
+          <li class="section__item">English - Intermediate</li>
+          <li class="section__item">Russian - Native</li>
+          <li class="section__item">Polish - Pre-Intermediate</li>
+        </ul>
+      </section>
+      <section class="section" id="hobby">
+        <h2 class="section__title">Hobby</h2>
+        <ul class="section__list">
+          <li class="section__item">Cycling</li>
+          <li class="section__item">Languages</li>
+          <li class="section__item">Travelling</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <div class="container footer__container">
+      <div class="footer__content">
+        <a class="footer__git" href="https://github.com/Mariia22/todo-react"></a>
+        <a class="footer__rss" href="https://rs.school/js/"></a>
+      </div>
+      <span class="footer__text">© 2022</span>
+    </div>
+  </footer>
+  <script src="./index.js"></script>
 </body>
 
 </html>
